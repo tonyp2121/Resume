@@ -12,6 +12,8 @@
 \textheight=9.0in
 \usepackage[utf8]{inputenc}
 \usepackage{url}
+\usepackage{nopageno}
+\usepackage{paralist}
 \usepackage[pdftex, pdftitle={Des femmes qui tombent}]{hyperref}
 \hypersetup{colorlinks,%
 citecolor=black,%
@@ -27,9 +29,9 @@ urlcolor=black}
 \normalsize{\href{mailto:me@tonypallone.com}{me@tonypallone.com}} \\
 \smallskip
 \normalsize{702.340.4667 \hfill
-\href{https://tonypallone.com}{tonypallone.com}}
+\href{http://tonypallone.com/}{tonypallone.com}}
 \\
-\small Address available upon request.\hfill \normalsize \href{https://github.com/tonyp2121}{github.com/tonyp2121}
+\small Address available upon request.\hfill \normalsize \href{http://github.com/tonyp2121}{github.com/tonyp2121}
 \end{center}
 \raggedright{\begin{tabular}[b]{p{4.9cm}}
 	\bf{\large{Education}} \\
@@ -38,22 +40,31 @@ urlcolor=black}
 %\raggedleft {University of Nevada Las Vegas\\
 %			 \emph{\footnotesize{Fall 2013 --- Now}} \\
 %             Computer Engineering --- GPA 2.98
- %            }
+%             }
 \smallskip \smallskip
-\begin{tabular}[b]{p{1.3cm} p{13cm}}
-	& \bf{University of Nevada Las Vegas College of Engineering}\\
-	& \emph{\footnotesize{Fall 2013 --- Now}} \\
-	& Bachelor of Science Computer Engineering\\
-    & GPA 2.98 \\
-\end{tabular}
-\\
-\medskip 		%might want this to be a big skip
+\begin{tabular}[b]{p{1.3cm} p{14.4cm} }
+	& \small{\bf{University of Nevada Las Vegas College of Engineering}} \hfill \emph{\footnotesize{Fall 2013 -- Current}}
+    \begin{compactitem}
+    	\item Bachelor of Science Computer Engineering
+    	\item GPA 2.98
+	\end{compactitem}
+\end{tabular}\\
+%might want this to be a big skip
 \raggedright{\begin{tabular}[b]{p{4.9cm}}
 	\bf{\large{Work Experience}} \\
     \cline{1-1}
-\end{tabular}}
-\begin{tabular}[b]{p{1.3cm} p{13cm}}
-
+\end{tabular}} \\
+\smallskip \smallskip
+\begin{tabular}[b]{p{1.3cm} p{14.4cm}}
+	& \small{\bf{Research Assistant. Professor Yang}} \hfill \emph{\footnotesize{March 2017 -- Current}}
+    \begin{compactitem}
+    	\item Worked with Professor Yang on studying new developing low latency memory systems
+    	\item Studied and tracked the impact of OS paging algorithms on the new memory.
+	\end{compactitem} \medskip
+    \small{\bf{Systems Programming Tutor}} \hfill \emph{\footnotesize{March 2017 -- Current}}
+    \begin{compactitem}
+    	\item Tutored students in assembly programming, specifically the Intel x86 and MIPS programming language.
+	\end{compactitem} \medskip
 \end{tabular}
 
 \end{document}
